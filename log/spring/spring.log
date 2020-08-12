@@ -1,0 +1,668 @@
+2020/08/12-09:38:36 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 11076 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-09:38:36 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-09:38:36 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-09:38:36 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-09:38:37 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-09:38:37 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-09:38:37 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020/08/12-09:38:37 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-09:38:37 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$327b3736] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-09:38:37 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-09:38:37 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-09:38:37 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-09:38:37 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-09:38:37 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-09:38:38 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-09:38:38 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1679 ms
+2020/08/12-09:38:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-09:38:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-09:38:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-09:38:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-09:38:39 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-09:38:39 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-09:38:39 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-09:38:39 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-09:38:40 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-09:38:40 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-09:38:40 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-09:38:40 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-09:38:40 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 5.077 seconds (JVM running for 6.901)
+2020/08/12-09:39:08 [http-nio-7741-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/08/12-09:39:08 [http-nio-7741-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/08/12-09:39:08 [http-nio-7741-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 8 ms
+2020/08/12-09:39:40 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 7264 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-09:39:40 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-09:39:40 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-09:39:40 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-09:39:41 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-09:39:41 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-09:39:41 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020/08/12-09:39:41 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-09:39:41 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$d1d32a03] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-09:39:41 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-09:39:41 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-09:39:42 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-09:39:42 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-09:39:42 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-09:39:42 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-09:39:42 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1419 ms
+2020/08/12-09:39:42 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-09:39:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-09:39:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-09:39:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-09:39:43 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-09:39:43 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-09:39:43 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-09:39:43 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-09:39:44 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-09:39:44 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-09:39:44 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-09:39:44 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-09:39:44 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 4.564 seconds (JVM running for 6.111)
+2020/08/12-09:39:45 [http-nio-7741-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/08/12-09:39:45 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/08/12-09:39:45 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 11 ms
+2020/08/12-09:40:34 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 18416 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-09:40:34 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-09:40:34 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-09:40:34 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-09:40:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-09:40:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-09:40:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020/08/12-09:40:35 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-09:40:35 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$2eb67e57] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-09:40:35 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-09:40:35 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-09:40:35 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-09:40:35 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-09:40:35 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-09:40:35 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-09:40:35 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1471 ms
+2020/08/12-09:40:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-09:40:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-09:40:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-09:40:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-09:40:37 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-09:40:37 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-09:40:37 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-09:40:37 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-09:40:38 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-09:40:38 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-09:40:38 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-09:40:38 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-09:40:38 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 5.085 seconds (JVM running for 6.887)
+2020/08/12-09:40:55 [http-nio-7741-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/08/12-09:40:55 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/08/12-09:40:55 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 9 ms
+2020/08/12-09:40:56 [http-nio-7741-exec-1] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.IOException: java.io.FileNotFoundException: C:\Users\Administrator\Desktop\aaa.JPG (拒绝访问。)
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:122)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile.transferTo(StandardMultipartHttpServletRequest.java:256)
+	at org.boggler.api.controller.UserController.GetPhoto(UserController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: C:\Users\Administrator\Desktop\aaa.JPG (拒绝访问。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.write(DiskFileItem.java:406)
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:120)
+	... 52 common frames omitted
+2020/08/12-09:41:06 [http-nio-7741-exec-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.IOException: java.io.FileNotFoundException: C:\Users\Administrator\Desktop\aaa.JPG (拒绝访问。)
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:122)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile.transferTo(StandardMultipartHttpServletRequest.java:256)
+	at org.boggler.api.controller.UserController.GetPhoto(UserController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: C:\Users\Administrator\Desktop\aaa.JPG (拒绝访问。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.write(DiskFileItem.java:406)
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:120)
+	... 52 common frames omitted
+2020/08/12-09:41:31 [http-nio-7741-exec-5] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.IOException: java.io.FileNotFoundException: C:\Users\Administrator\Desktop\aaa.JPG (拒绝访问。)
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:122)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile.transferTo(StandardMultipartHttpServletRequest.java:256)
+	at org.boggler.api.controller.UserController.GetPhoto(UserController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.FileNotFoundException: C:\Users\Administrator\Desktop\aaa.JPG (拒绝访问。)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.write(DiskFileItem.java:406)
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:120)
+	... 52 common frames omitted
+2020/08/12-10:32:56 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 14040 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-10:32:56 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-10:32:56 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-10:32:56 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-10:32:56 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-10:32:56 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-10:32:56 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020/08/12-10:32:57 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-10:32:57 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$a04b9845] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-10:32:57 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-10:32:57 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-10:32:57 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-10:32:57 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-10:32:57 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-10:32:57 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-10:32:57 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1480 ms
+2020/08/12-10:32:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-10:32:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-10:32:58 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-10:32:59 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-10:32:59 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-10:32:59 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-10:32:59 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-10:32:59 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-10:32:59 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-10:33:00 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-10:33:00 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-10:33:00 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-10:33:00 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 4.528 seconds (JVM running for 6.145)
+2020/08/12-10:34:20 [http-nio-7741-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/08/12-10:34:20 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/08/12-10:34:20 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 13 ms
+2020/08/12-11:28:03 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 716 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-11:28:03 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-11:28:03 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-11:28:03 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-11:28:04 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-11:28:04 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-11:28:04 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020/08/12-11:28:04 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-11:28:04 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$59c5993] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-11:28:04 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-11:28:04 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-11:28:04 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-11:28:04 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-11:28:04 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-11:28:05 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-11:28:05 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1695 ms
+2020/08/12-11:28:05 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-11:28:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-11:28:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-11:28:07 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-11:28:07 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-11:28:07 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-11:28:07 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-11:28:07 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-11:28:07 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-11:28:08 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-11:28:08 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-11:28:08 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-11:28:08 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 5.53 seconds (JVM running for 7.169)
+2020/08/12-11:28:09 [http-nio-7741-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/08/12-11:28:09 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/08/12-11:28:09 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 8 ms
+2020/08/12-13:34:35 [master housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- master - Thread starvation or clock leap detected (housekeeper delta=1h9m58s955ms361µs200ns).
+2020/08/12-13:34:36 [slave housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool- slave - Thread starvation or clock leap detected (housekeeper delta=1h9m58s955ms409µs100ns).
+2020/08/12-13:59:08 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 14724 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-13:59:08 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-13:59:08 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-13:59:08 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-13:59:09 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-13:59:09 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-13:59:09 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020/08/12-13:59:09 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-13:59:09 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$510c49da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-13:59:09 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-13:59:09 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-13:59:09 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-13:59:09 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-13:59:09 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-13:59:09 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-13:59:09 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1432 ms
+2020/08/12-13:59:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-13:59:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-13:59:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-13:59:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-13:59:11 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-13:59:11 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-13:59:11 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-13:59:11 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-13:59:12 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-13:59:12 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-13:59:12 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-13:59:12 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-13:59:12 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 5.174 seconds (JVM running for 7.009)
+2020/08/12-13:59:35 [http-nio-7741-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/08/12-13:59:35 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/08/12-13:59:35 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 7 ms
+2020/08/12-14:07:41 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 12052 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-14:07:41 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-14:07:41 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-14:07:41 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-14:07:42 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-14:07:42 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-14:07:42 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020/08/12-14:07:42 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:07:42 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$6c8bd69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:07:42 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:07:42 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:07:42 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-14:07:42 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-14:07:42 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-14:07:42 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-14:07:42 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1641 ms
+2020/08/12-14:07:43 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-14:07:44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-14:07:44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-14:07:44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-14:07:44 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-14:07:44 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-14:07:44 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-14:07:44 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-14:07:44 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-14:07:45 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-14:07:45 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-14:07:45 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-14:07:45 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 5.025 seconds (JVM running for 6.856)
+2020/08/12-14:08:39 [http-nio-7741-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/08/12-14:08:39 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/08/12-14:08:39 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 8 ms
+2020/08/12-14:10:15 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 1948 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-14:10:15 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-14:10:15 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-14:10:15 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-14:10:16 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-14:10:16 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-14:10:16 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020/08/12-14:10:16 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:10:16 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$7d6dd419] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:10:16 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:10:16 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:10:16 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-14:10:16 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-14:10:16 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-14:10:16 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-14:10:16 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1391 ms
+2020/08/12-14:10:16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-14:10:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-14:10:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-14:10:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-14:10:18 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-14:10:18 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-14:10:18 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-14:10:18 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-14:10:18 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-14:10:19 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-14:10:19 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-14:10:19 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-14:10:19 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 4.353 seconds (JVM running for 5.848)
+2020/08/12-14:10:26 [http-nio-7741-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/08/12-14:10:26 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/08/12-14:10:26 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 6 ms
+2020/08/12-14:11:17 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 14704 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-14:11:17 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-14:11:17 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-14:11:17 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-14:11:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-14:11:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-14:11:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020/08/12-14:11:18 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:11:18 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$9d01bf1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:11:18 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:11:18 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:11:19 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-14:11:19 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-14:11:19 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-14:11:19 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-14:11:19 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1380 ms
+2020/08/12-14:11:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-14:11:20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-14:11:20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-14:11:20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-14:11:20 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-14:11:20 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-14:11:20 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-14:11:20 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-14:11:21 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-14:11:21 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-14:11:21 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-14:11:21 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-14:11:21 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 4.399 seconds (JVM running for 5.878)
+2020/08/12-14:11:41 [http-nio-7741-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/08/12-14:11:41 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/08/12-14:11:41 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 7 ms
+2020/08/12-14:13:07 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 14400 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-14:13:07 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-14:13:07 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-14:13:07 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-14:13:08 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-14:13:08 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-14:13:08 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020/08/12-14:13:09 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:13:09 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$d6a3b3dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:13:09 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:13:09 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:13:09 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-14:13:09 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-14:13:09 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-14:13:09 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-14:13:09 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1442 ms
+2020/08/12-14:13:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-14:13:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-14:13:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-14:13:10 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-14:13:10 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-14:13:10 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-14:13:10 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-14:13:10 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-14:13:11 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-14:13:11 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-14:13:11 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-14:13:11 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-14:13:11 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 4.314 seconds (JVM running for 5.874)
+2020/08/12-14:34:42 [http-nio-7741-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/08/12-14:34:42 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/08/12-14:34:42 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 10 ms
+2020/08/12-14:45:23 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 16876 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-14:45:23 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-14:45:23 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-14:45:23 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-14:45:24 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-14:45:24 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-14:45:24 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020/08/12-14:45:24 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:45:24 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$283ea360] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:45:24 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:45:24 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:45:25 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-14:45:25 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-14:45:25 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-14:45:25 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-14:45:25 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1519 ms
+2020/08/12-14:45:25 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-14:45:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-14:45:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-14:45:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-14:45:28 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-14:45:28 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-14:45:28 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-14:45:28 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-14:45:28 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-14:45:29 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-14:45:29 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-14:45:29 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-14:45:29 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 6.15 seconds (JVM running for 7.967)
+2020/08/12-14:45:38 [http-nio-7741-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/08/12-14:45:38 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/08/12-14:45:38 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 9 ms
+2020/08/12-14:46:30 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 2300 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-14:46:30 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-14:46:30 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-14:46:30 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-14:46:31 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-14:46:31 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-14:46:31 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020/08/12-14:46:31 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:46:31 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$878263bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:46:31 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:46:31 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:46:32 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-14:46:32 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-14:46:32 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-14:46:32 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-14:46:32 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1435 ms
+2020/08/12-14:46:32 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-14:46:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-14:46:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-14:46:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-14:46:33 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-14:46:33 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-14:46:33 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-14:46:33 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-14:46:34 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-14:46:34 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-14:46:34 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-14:46:34 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-14:46:34 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 4.918 seconds (JVM running for 6.574)
+2020/08/12-14:46:41 [http-nio-7741-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/08/12-14:46:41 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/08/12-14:46:41 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 7 ms
+2020/08/12-14:51:34 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 7548 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-14:51:34 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-14:51:34 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-14:51:34 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-14:51:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-14:51:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-14:51:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020/08/12-14:51:35 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:51:35 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$bacd260d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:51:35 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:51:35 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:51:36 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-14:51:36 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-14:51:36 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-14:51:36 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-14:51:36 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1517 ms
+2020/08/12-14:51:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-14:51:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-14:51:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-14:51:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-14:51:38 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-14:51:38 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-14:51:38 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-14:51:38 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-14:51:38 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-14:51:39 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-14:51:39 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-14:51:39 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-14:51:39 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 5.223 seconds (JVM running for 6.915)
+2020/08/12-14:51:40 [http-nio-7741-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/08/12-14:51:40 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/08/12-14:51:40 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 8 ms
+2020/08/12-14:58:27 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 2980 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-14:58:27 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-14:58:27 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-14:58:27 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-14:58:27 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-14:58:27 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-14:58:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020/08/12-14:58:28 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:58:28 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$a66f9a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:58:28 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:58:28 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:58:28 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-14:58:28 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-14:58:28 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-14:58:28 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-14:58:28 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1504 ms
+2020/08/12-14:58:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-14:58:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-14:58:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-14:58:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-14:58:30 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-14:58:30 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-14:58:30 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-14:58:30 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-14:58:30 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-14:58:31 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-14:58:31 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-14:58:31 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-14:58:31 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 4.9 seconds (JVM running for 6.65)
+2020/08/12-14:58:34 [http-nio-7741-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020/08/12-14:58:34 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2020/08/12-14:58:34 [http-nio-7741-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 8 ms
+2020/08/12-14:59:54 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Starting BogglerapiApplication on DESKTOP-EFBTBON with PID 3828 (D:\code\bogglerApi\target\classes started by Administrator in D:\code\bogglerApi)
+2020/08/12-14:59:54 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- No active profile set, falling back to default profiles: default
+2020/08/12-14:59:54 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020/08/12-14:59:54 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020/08/12-14:59:55 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2020/08/12-14:59:55 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020/08/12-14:59:55 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2020/08/12-14:59:55 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:59:55 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$7386e251] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:59:55 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:59:55 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020/08/12-14:59:56 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 7741 (http)
+2020/08/12-14:59:56 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2020/08/12-14:59:56 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020/08/12-14:59:56 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2020/08/12-14:59:56 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext- Root WebApplicationContext: initialization completed in 1629 ms
+2020/08/12-14:59:56 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Starting...
+2020/08/12-14:59:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- master - Start completed.
+2020/08/12-14:59:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Starting...
+2020/08/12-14:59:57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- slave - Start completed.
+2020/08/12-14:59:57 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 初始共加载 2 个数据源
+2020/08/12-14:59:57 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 slave 成功
+2020/08/12-14:59:57 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 动态数据源-加载 master 成功
+2020/08/12-14:59:57 [restartedMain] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource- 当前的默认数据源是单数据源，数据源名为 master
+2020/08/12-14:59:58 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2020/08/12-14:59:58 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler- Initializing ExecutorService 'taskScheduler'
+2020/08/12-14:59:58 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2020/08/12-14:59:58 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 7741 (http) with context path ''
+2020/08/12-14:59:58 [restartedMain] INFO  org.boggler.api.BogglerapiApplication- Started BogglerapiApplication in 4.823 seconds (JVM running for 6.532)

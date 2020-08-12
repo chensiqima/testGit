@@ -1,0 +1,48 @@
+server:
+  port: 7741
+  servlet:
+    context-path: /
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10485760
+      max-request-size: 10485760
+  datasource:
+    dynamic:
+      primary: master
+      datasource:
+        master:
+          username: root
+          password: sorft
+          url: jdbc:mysql://139.196.110.137:3306/qq?characterEncoding=UTF-8&serverTimezone=UTC
+          driver-class-name: com.mysql.cj.jdbc.Driver
+        slave:
+          username: root
+          password: sorft
+          url: jdbc:mysql://139.196.110.137:3306/dd?characterEncoding=UTF-8&serverTimezone=UTC
+          driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    time-zone: GMT+8
+redis:
+  host: 139.196.110.137
+  timeout: 3000
+  port: 6379
+  password: sorft
+  DB: 0
+  max-active: 200
+  max-idle: 10
+  min-idle: 10
+  max-wait: 10000
+mybatis-plus:
+  mapper-locations: classpath*:/mappers/*.xml
+
+logging:
+  level:
+    com.member.api: debug
+  file:
+    path: log/spring/
+  pattern:
+    console: "%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n"
+    file: "%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n"
+
